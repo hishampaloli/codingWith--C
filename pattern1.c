@@ -124,5 +124,112 @@ int main(void)
     //     printf("\n");
     // }
 
+
+//     1
+//    212
+//   32123
+//  4321234
+// 543212345
+
+//  int n = 5, m;
+// 	    m = n;
+// 	    for (int i = 1; i <= n; i++){
+// 	        for(int j = 1; j <= m - i; j++) {
+// 	        	printf(" ");
+// 	        }
+
+// 	        for(int k = i; k >= 1; k--) {
+// 	        	printf("%d", k);
+// 	        }
+
+// 	        for( int k = 2; k<= i; k++){
+// 	        	printf("%d", k);
+// 	        }
+// 	        printf("\n");
+// 	    }
+
+//     1
+//    212
+//   32123
+//  4321234
+// 543212345
+//  4321234
+//   32123
+//    212
+//     1
+
+//   int n = 5, m;
+
+// 	    for (int i = 1; i <= 2 * n; i++){
+
+// 		   int c = i > n ? n * 2 - i : i;
+
+// 	       for(int j = 1; j <= n - c; j++) {
+// 	    	   printf(" ");
+// 	       }
+
+
+// 	       for(int k = c; k >= 1; k--) {
+// 	    	   printf("%d", k);
+// 	       }
+
+// 	       for(int k = 2; k <= c; k++) {
+// 	       	   printf("%d", k);
+// 	       	 }
+// 	        printf("\n");
+// 	    }
+
+//    *
+//   **
+//  ***
+// ****
+//  ***
+//   **
+//    *
+
+//   int n = 5, m;
+
+// 	    for (int i = 1; i <= 2 * n; i++){
+
+// 		   int c = i > n ? n * 2 - i : i;
+
+// 	       for(int sp = 1; sp <= n - c; sp++) {
+// 	    	   printf(" ");
+// 	       }
+// 	       for(int j = 1; j < c; j++) {
+// 	    	   printf("*");
+// 	       }
+
+
+// 	        printf("\n");
+// 	    }
+
+//     1
+//    21
+//   321
+//  4321
+// 54321
+//  4321
+//   321
+//    21
+//     1
+
+//  int n = 5, m;
+
+// 	    for (int i = 1; i <= 2 * n; i++){
+
+// 		   int c = i > n ? n * 2 - i : i;
+
+// 	       for(int sp = 1; sp <= n - c; sp++) {
+// 	    	   printf(" ");
+// 	       }
+// 	       for(int k = c; k >= 1; k--) {
+// 	       	        	printf("%d", k);
+// 	       	 }
+
+
+// 	        printf("\n");
+// 	    }
+
     return EXIT_SUCCESS;
 }
