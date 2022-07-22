@@ -364,6 +364,68 @@ int main(void)
 // 	         printf("\n");
 // 	     }
 
+//  * * * * *
+//  * * * *
+//  * * *
+//  * *
+//  *
+//  *
+//  * *
+//  * * *
+//  * * * *
+//  * * * * *
+
+
+	//   int n = 5;
+
+
+	//   for(int i=1;i<=n * 2;i++) {
+
+	// 	 int c = i <= n ? n - i + 1 : i - n;
+
+	//        for(int j = 1; j <= c ; j++){
+	//     	   printf(" *");
+	//        }
+
+
+
+	//          printf("\n");
+	//      }
+
+
+//  *****
+//   ****
+//    ***
+//     **
+//      *
+//      *
+//     **
+//    ***
+//   ****
+//  *****
+
+//   int n = 5;
+
+
+// 	  for(int i=1;i<=n * 2;i++) {
+
+// 		 int c = i <= n ? i : n * 2 - i + 1;
+// 		 int c1 = i <= n ? n - i + 1 : i - n;
+
+// 	       for(int space = 1; space <= c ; space++){
+// 	    	   printf(" ");
+// 	       }
+
+// 	       for(int j = 1; j <= c1; j++) {
+// 	    	   printf("*");
+// 	       }
+
+
+
+// 	         printf("\n");
+// 	     }
+
+
 
 
     return EXIT_SUCCESS;
