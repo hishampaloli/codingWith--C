@@ -231,5 +231,140 @@ int main(void)
 // 	        printf("\n");
 // 	    }
 
+//  *  *  *  *  * 
+//  *           * 
+//  *           * 
+//  *           * 
+//  *  *  *  *  * 
+
+
+	//   int n = 5;
+
+
+	//   for(int i=1;i<=n;i++)
+	//      {
+	//          for(int j=1;j<=n;j++)
+	//          {
+	//              if(i == 1 || j== 1 || i == n || j ==n)
+	//              {
+	//              printf(" * ");
+	//              }
+	//              else
+	//              printf("   ");
+	//          }
+	//          printf("\n");
+	//      }
+
+
+// *
+// **
+// * *
+// *  *
+// *****
+
+	//   int n = 5;
+
+
+	//   for(int i=1;i<=n;i++)
+	//      {
+	//          for(int j=1;j<=i;j++)
+	//          {
+	//              if(i == 1 || j== 1 || i == n || j ==i)
+	//              {
+	//              printf("*");
+	//              }
+	//              else
+	//              printf(" ");
+	//          }
+	//          printf("\n");
+	     
+
+//     *
+//    **
+//   * *
+//  *  *
+// *****
+
+//  int n = 5;
+
+
+// 	  for(int i=1;i<=n;i++) {
+// 	       for(int space = 1; space <= n - i; space++) {
+// 	    	   printf(" ");
+// 	       }
+
+// 	       for(int j = i; j >= 1; j--) {
+
+// 	    	   if(j == i || j == 1 || i == n){
+// 	    		   printf("*");
+// 	    	   }else {
+// 		    	   printf(" ");
+// 	    	   }
+// 	       }
+// 	         printf("\n");
+// 	     }
+
+// *****
+//  *  *
+//   * *
+//    **
+//     *
+
+//   int n = 5;
+
+
+// 	  for(int i=1;i<=n;i++) {
+// 	       for(int space = 1; space <= i - 1; space++) {
+// 	    	   printf(" ");
+// 	       }
+
+// 	       for( int j = 1; j <= n - i + 1; j++) {
+// 	    	   if(i == n || j == n - i + 1 || j == 1 || i == 1) {
+// 		    	   printf("*");
+// 	    	   }else {
+// 	    		   printf(" ");
+// 	    	   }
+// 	       }
+
+
+// 	         printf("\n");
+// 	     }
+
+//     *
+//    * *
+//   *   *
+//  *     *
+// *********
+
+
+//   int n = 5;
+
+
+// 	  for(int i=1;i<=n;i++) {
+// 	       for(int space = 1; space <= n - i; space++) {
+// 	    	   printf(" ");
+// 	       }
+
+// 	       for(int j = i; j >= 1; j--){
+// 	    	   if(j == i  || i == n ){
+// 		    	   printf("*");
+// 	    	   }else {
+// 	    		   printf(" ");
+// 	    	   }
+// 	       }
+
+// 	       for(int j = 2; j <= i; j++) {
+// 	    	   if(j == i || i == n  ){
+// 	    	  	printf("*");
+// 	    	  	}else {
+// 	    	  	  printf(" ");
+// 	    	    }
+// 	       }
+
+// 	         printf("\n");
+// 	     }
+
+
+
     return EXIT_SUCCESS;
 }
