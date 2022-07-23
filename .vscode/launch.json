@@ -8,7 +8,7 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": false,
-      "cwd": "c:/webDevelepments/Pattern-Printing",
+      "cwd": "c:/webDevelepments/Pattern-Printing/",
       "program": "c:/webDevelepments/Pattern-Printing/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",

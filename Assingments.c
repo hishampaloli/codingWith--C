@@ -331,6 +331,7 @@ int main(void)
 // Enter a size of array2
 // 1
 // 2
+
 // 9
 // 8
 //  array1 = 9 
@@ -524,10 +525,166 @@ int main(void)
 
 
 // OUTPUT >>>>>>>>>>>>>>>>>>>
-// Enter a string:malayalam
-// PALINDROME
+// Enter a size2
+// 1
+// 2
+// 2
+// 1
+// Array two10
+// 10
+// 10
+// 10
+// 11 12 
+// 12 11 
 
    // *************************************************************************
+
+
+
+
+
+
+
+
+
+    // q15 :-  Write a program to accept an array and display it on the console using functions.
+
+
+   // code >>>>>>>>>>>>>>>>>>>>>>
+
+
+
+// int array1[200][200], array2[200][200], sum[100][100], count;
+
+// printf("Enter a size");
+// scanf("%d", &count);
+
+// for(int i = 0; i < count; i++) {
+//    for (int j = 0; j < count; j++) {
+//      scanf("%d", &array1[i][j]);
+//    }
+// }
+// printf("Array two");
+// for(int i = 0; i < count; i++) {
+//    for (int j = 0; j < count; j++) {
+//      scanf("%d", &array2[i][j]);
+//    }
+// }
+
+// for(int i = 0; i < count; i++) {
+//    for (int j = 0; j < count; j++) {
+//      sum[i][j] = array1[i][j] + array2[i][j];
+//    }
+// }
+
+// for(int i = 0; i < count; i++) {
+//    for (int j = 0; j < count; j++) {
+//      printf("%d ", sum[i][j]);
+//    }
+//    printf("\n");
+// }
+
+
+// OUTPUT >>>>>>>>>>>>>>>>>>>
+// Enter a size2
+// 1
+// 2
+// 2
+// 1
+// Array two10
+// 10
+// 10
+// 10
+// 11 12 
+// 12 11 
+
+   // *************************************************************************
+
+
+
+
+
+
+
+
+
+    // q20 :-  Write a program to print the following pattern using for loop.
+
+
+   // code >>>>>>>>>>>>>>>>>>>>>>
+
+
+
+//   int  k = 1, N;
+
+//     printf("Enter N: ");
+//     scanf("%d", &N);
+
+
+//     for(int i=1; i<=N; i++)
+//     {
+//         for(int j=1; j<=i; j++, k++)
+//         {
+//             printf(" %d", k);
+//         }
+
+//         printf("\n");
+//     }
+
+
+// OUTPUT >>>>>>>>>>>>>>>>>>>
+// 1
+// 2	3
+// 4	5	6
+// 7	8	9	10
+
+   // *************************************************************************
+   
+
+
+
+
+
+
+
+
+
+    // q21 :- Write a program to multiply the adjacent values of an array and store it in an another array.
+
+
+   // code >>>>>>>>>>>>>>>>>>>>>>
+
+//   int limit, array[100], alt[100] ;
+
+//     printf("Enter N: ");
+//     scanf("%d", &limit);
+
+//     for(int i = 0; i < limit ; i++) {
+//       scanf("%d", &array[i]);
+//     }
+
+//     for (int i = 0; i < limit; i++) {
+//       alt[i] = array[i] * array[i+ 1];
+//     }
+
+//     for (int i = 0; i < limit - 1; i++)
+//     {
+//       printf("%d ", alt[i]);
+//     }
+    
+    
+
+
+
+
+// OUTPUT >>>>>>>>>>>>>>>>>>>
+// 1
+// 2	3
+// 4	5	6
+// 7	8	9	10
+
+   // *************************************************************************
+
 
 
 
