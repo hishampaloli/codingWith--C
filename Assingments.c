@@ -95,7 +95,7 @@ int main(void)
 
    // if (mark >= 50) {
    //    printf("PASSED");
-   // } else (mark > -1 && mark < 50 ) {
+   // } else if(mark > -1 && mark < 50 ) {
    //    printf("FAILED");
    // }
 
@@ -470,6 +470,57 @@ int main(void)
 //        } else {
 //          printf("NOT PALINDROME");
 //        }   
+
+
+// OUTPUT >>>>>>>>>>>>>>>>>>>
+// Enter a string:malayalam
+// PALINDROME
+
+   // *************************************************************************
+
+
+
+
+
+
+
+
+
+    // q14 :-  Write a program to add to two dimensional arrays.
+
+
+   // code >>>>>>>>>>>>>>>>>>>>>>
+
+
+// int array1[200][200], array2[200][200], sum[100][100], count;
+
+// printf("Enter a size");
+// scanf("%d", &count);
+
+// for(int i = 0; i < count; i++) {
+//    for (int j = 0; j < count; j++) {
+//      scanf("%d", &array1[i][j]);
+//    }
+// }
+// printf("Array two");
+// for(int i = 0; i < count; i++) {
+//    for (int j = 0; j < count; j++) {
+//      scanf("%d", &array2[i][j]);
+//    }
+// }
+
+// for(int i = 0; i < count; i++) {
+//    for (int j = 0; j < count; j++) {
+//      sum[i][j] = array1[i][j] + array2[i][j];
+//    }
+// }
+
+// for(int i = 0; i < count; i++) {
+//    for (int j = 0; j < count; j++) {
+//      printf("%d ", sum[i][j]);
+//    }
+//    printf("\n");
+// }
 
 
 // OUTPUT >>>>>>>>>>>>>>>>>>>
