@@ -394,6 +394,96 @@ int main(void)
 
 
 
+    // q12 :-  Write a program to sort an array in descending order.
+
+
+   // code >>>>>>>>>>>>>>>>>>>>>>
+
+   // int limit, array[100], even;
+
+   // printf("Enter a size of array");
+   // scanf("%d", &limit);
+
+   // printf("Enter an array \n");
+
+   // for (int i = 0; i < limit; i++) {
+   //    scanf("%d", &array[i]);
+   // }
+
+   // for(int i = 0; i < limit; i++) {
+   //    for(int j = 0; j < limit; j++) {
+   //       if(array[i] > array[j]) {
+   //          int temp = array[i];
+   //          array[i] = array[j];
+   //          array[j] = temp;
+   //       }
+   //    }
+   // }
+
+   // for (int i = 0; i < limit; i++) {
+   //    printf(" %d", array[i]);
+   // }
+   
+
+
+
+// OUTPUT >>>>>>>>>>>>>>>>>>>
+// Enter a size of array 5
+// Enter an array
+// 2
+// 8
+// 3
+// 0
+// 4
+//  8 4 3 2 0
+
+   // *************************************************************************
+
+
+
+
+
+
+
+
+
+    // q13 :-  Write a program to identify whether a string is a palindrome or not.
+
+
+   // code >>>>>>>>>>>>>>>>>>>>>>
+
+// char input[20];
+// int temp = 0;
+//     printf("Enter a string:");
+//     scanf("%s", input);
+
+//     int len = strlen(input);
+//     for(int i = 0; i < len; i++){
+//        if(input[i] != input[len - i - 1]){
+//          temp = 1;
+//        }
+
+// }
+
+//  if(temp == 0){
+//          printf("PALINDROME");
+//        } else {
+//          printf("NOT PALINDROME");
+//        }   
+
+
+// OUTPUT >>>>>>>>>>>>>>>>>>>
+// Enter a string:malayalam
+// PALINDROME
+
+   // *************************************************************************
+
+
+
+
+
+
+
 
 
 
