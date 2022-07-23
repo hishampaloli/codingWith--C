@@ -23,6 +23,13 @@ int main(void)
 
    // *************************************************************************
 
+
+
+
+
+
+
+
    // q2 :- Accept two inputs from the user and output its sum.
 
    // code >>>>>>>>>>>>>>>>>>>>>>
@@ -42,6 +49,11 @@ int main(void)
    //   Sum of the two numbers is: 2
 
    // *************************************************************************
+
+
+
+
+
 
    // q3 :- Write a program to find the simple interest.
 
@@ -67,6 +79,11 @@ int main(void)
 
    // *************************************************************************
 
+
+
+
+
+
    // q4 :- Write a program to find the simple interest.
 
    // code >>>>>>>>>>>>>>>>>>>>>>
@@ -88,6 +105,11 @@ int main(void)
    // FAILED
 
    // *************************************************************************
+
+
+
+
+
 
    // q5 :- Write a program to show the grade obtained by a student after he/she enters their total mark percentage.
 
@@ -118,6 +140,11 @@ int main(void)
    // D
 
    // *************************************************************************
+
+
+
+
+
 
    // q6 :- Using the ‘switch case’ write a program to accept an input number from the user and output the day as follows.
 
@@ -162,6 +189,214 @@ int main(void)
    // FRIDAY
 
    // *************************************************************************
+
+
+
+
+
+
+
+    // q7 :- Write a program to print the multiplication table of given numbers.
+
+
+   // code >>>>>>>>>>>>>>>>>>>>>>
+   // int number;
+
+   // printf("Enter a number to get its multipliation table \n");
+   // scanf("%d", &number);
+
+   // for(int i = 1; i <= 5; i++) {
+   //    int mult = i * number;
+   //    printf("%d * %d = %d \n", i, number, mult);
+   // }
+
+
+
+// OUTPUT >>>>>>>>>>>>>>>>>>>
+// Enter a number to get its multipliation table 
+// 5
+// 1 * 5 = 5 
+// 2 * 5 = 10
+// 3 * 5 = 15
+// 4 * 5 = 20
+// 5 * 5 = 25
+
+   // *************************************************************************
+
+
+
+
+
+
+
+    // q8 :- Write a program to find the sum of all the odd numbers for a given limit.
+
+
+   // code >>>>>>>>>>>>>>>>>>>>>>
+   // int number, sum = 0;
+
+   // printf("Enter a number to sum all the odd numbers within that number \n");
+   // scanf("%d", &number);
+
+   // for(int i = 0; i <= number; i++) {
+   //    if(i % 2 != 0){
+   //       sum = sum + i;
+   //    }
+   // }
+   
+   //       printf("Sum of odd numbers = %d ", sum);
+
+
+
+// OUTPUT >>>>>>>>>>>>>>>>>>>
+// Enter a number to sum all the odd numbers within that number 
+// 100
+// Sum of odd numbers = 2500  
+
+   // *************************************************************************
+
+
+
+
+
+
+
+    // q9 :- Write a program to print the following pattern.
+
+
+   // code >>>>>>>>>>>>>>>>>>>>>>
+
+   // for(int i = 1; i <= 5; i++) {
+   //    for(int j = 1; j <= i; j++) {
+   //       printf("%d ", j);
+   //    }
+   //    printf("\n");
+   // }
+   
+        
+
+
+
+// OUTPUT >>>>>>>>>>>>>>>>>>>
+// 1 
+// 1 2
+// 1 2 3
+// 1 2 3 4
+// 1 2 3 4 5
+
+   // *************************************************************************
+
+
+
+
+
+
+
+    // q10 :- Write a program to interchange the values of two arrays.
+
+
+   // code >>>>>>>>>>>>>>>>>>>>>>
+
+//    int limit, array1[100], array2[100], temp;
+
+//    printf("Enter a size of array");
+//    scanf("%d", &limit);
+
+//   for(int i = 0; i < limit; ++i) {
+//     scanf("%d", &array1[i]);
+//   }
+
+//    for(int i = 0; i < limit; i++) {
+//       scanf("%d", &array2[i]);
+//    }
+
+//    for(int i = 0; i < limit; i++) {
+//       temp = array1[i];
+//       array1[i] = array2[i];
+//       array2[i] = temp;
+//    }
+
+//    for (int i = 0; i < limit; i++) {
+//       printf(" array1 = %d \n", array1[i]);
+//    }
+//    for (int i = 0; i < limit; i++) {
+//       printf(" array2 = %d \n", array2[i]);
+//    }
+   
+        
+
+
+
+// OUTPUT >>>>>>>>>>>>>>>>>>>
+// Enter a size of array2
+// 1
+// 2
+// 9
+// 8
+//  array1 = 9 
+//  array1 = 8
+//  array2 = 1
+//  array2 = 2
+
+   // *************************************************************************
+
+
+
+
+
+
+
+
+    // q11 :-  Write a program to find the number of even numbers in an array.
+
+
+   // code >>>>>>>>>>>>>>>>>>>>>>
+
+//    int limit, array[100], even;
+
+//    printf("Enter a size of array");
+//    scanf("%d", &limit);
+
+//    printf("Enter an array\n");
+
+//    for (int i = 0; i < limit; i++) {
+//       scanf("%d", &array[i]);
+//    }
+
+//    for(int j = 0; j < limit; j++) {
+//       if(array[j] % 2 == 0){
+//          even++;
+//       }
+//    }
+
+// printf("Number of even number is :- %d", even);
+        
+
+
+
+// OUTPUT >>>>>>>>>>>>>>>>>>>
+// Enter a size of array 6
+// Enter an array
+// 1
+// 2
+// 3
+// 4
+// 5
+// 6
+// Number of even number is :- 3
+
+   // *************************************************************************
+
+
+
+
+
+
+
+
+
+
+
 
    return 0;
 }
