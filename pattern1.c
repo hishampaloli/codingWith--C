@@ -452,6 +452,28 @@ int main(void)
 
 
 
+//     A 
+//    B C
+//   D E F
+//  G H I J
+// K L M N O
+
+// int n = 5,k;
+
+// for (int i = 1; i <= n; i++) {
+//     for (int space = n - i - 1; space >= 0; space--) {
+//         printf(" ");
+//     }
+
+//     for(int j = 1; j <= i; j++){
+//         k++;
+//         printf("%c ",'A'+ k - 1);
+//     }
+//     printf("\n");
+// }
+
+
+
 
 
     return EXIT_SUCCESS;

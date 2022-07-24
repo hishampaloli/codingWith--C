@@ -2,8 +2,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int main(void)
-{
+int main(void) {
 
    // q1 :- Accept a char input from the user and display it on the console.
 
@@ -604,7 +603,30 @@ int main(void)
 
 
 
+   // q18 :- Grades are computed using a weighted average. Suppose that the written test counts 70%,  lab exams 20% and assignments 10%.
 
+
+   // code >>>>>>>>>>>>>>>>>>>>>>
+
+// float writtenTest, labExam, assingments, grade;
+
+// printf("Enter your WrittenTest , labExam and assingment marks respectivley\n");
+// scanf("%f", &writtenTest);
+// scanf("%f", &labExam);
+// scanf("%f", &assingments);
+
+// grade = (writtenTest * 70) / 100 + (labExam * 20) / 100 + (assingments * 10) / 100;
+
+// printf("your grade is :- %f", grade);
+
+
+// OUTPUT >>>>>>>>>>>>>>>>>>>
+// Enter your WrittenTest , labExam and assingment marks respectivley
+// 100
+// 100
+// 90
+// your grade is :- 99.000000
+   // *************************************************************************
 
 
 
@@ -686,15 +708,24 @@ int main(void)
    // *************************************************************************
 
 
+	char string1[100], string2[100], check = 0;
 
+	   printf("Enter a string \n");
+	   gets(string1);
 
+	   printf("Enter another string \n");
+	   gets(string2);
 
+	   printf("string1 =%s \n", string1);
+	   printf("string2 =%s \n", string2);
 
+	   for(int i = 0; i < strlen(string1); i++) {
+		   if(string1[i] != string2[i]) {
+			   check = -1;
+		   }
+	   }
 
-
-
-
-
-
-   return 0;
+	   check == -1 ? printf("NOT SAME") : printf("SAME");
+	   return 0;
+      
 }
