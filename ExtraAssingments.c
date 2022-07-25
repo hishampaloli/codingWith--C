@@ -161,23 +161,23 @@ int main(void) {
 
     // code>>>>>>
 
-	char word[100];
-    int flag = 0;
+	// char word[100];
+    // int flag = 0;
 
-    printf("enter a word to find the word 'is' in it \n");
-    gets(word);
-    for (int i = 0; i <= strlen(word); i++) {
-        if (word[i] == ' ' & word[i + 1] == 'i' & word[i + 2] == 's' & word[i + 3] == ' '){
-            flag = 0;
-           return printf("found 'is' between %d and %d", i, i + 3);
-        }else {
-            flag = 1;
-        }
-    }
+    // printf("enter a word to find the word 'is' in it \n");
+    // gets(word);
+    // for (int i = 0; i <= strlen(word); i++) {
+    //     if (word[i] == ' ' & word[i + 1] == 'i' & word[i + 2] == 's' & word[i + 3] == ' '){
+    //         flag = 0;
+    //        return printf("found 'is' between %d and %d", i, i + 3);
+    //     }else {
+    //         flag = 1;
+    //     }
+    // }
 
-    if (flag = 1) {
-        printf("Word not found");
-    }
+    // if (flag = 1) {
+    //     printf("Word not found");
+    // }
     
     
 
@@ -307,6 +307,158 @@ int main(void) {
 //   ABCDEDCBA
 
 // **********************************************************************
+
+
+
+
+
+
+
+
+
+
+
+//    q11, Read some numbers from the user and find the repeating numbers?
+
+    // code>>>>>>
+
+    //  int arr[100]; 
+    //  int n; 
+
+    // int visited[100];
+
+    // printf("Enter a limit for array");
+    // scanf("%d", &n);
+
+    
+
+    // for (int i = 1; i <= n; i++) {
+    //     arr[0] = 0;
+    //     scanf("%d", &arr[i]);
+    // }
+    
+ 
+    // for(int i=1; i <= n; i++){
+        
+    //     // only if unvisited
+    //     if(visited[i] == 0){
+    //         int count = 1;
+          
+    //         for(int j = i+1; j <= n; j++) { 
+	// 			// if appears again in the array 
+	// 			if(arr[i] == arr[j]) 
+	// 			{ // increase count & mark index visited 
+    //             count++;
+	// 				visited[j] = 1; 
+	// 			} 
+	// 		} // 
+			
+    //         if(count > 1)
+    //             printf("Repeated numbers are :-%d \n",arr[i]);
+    //     }
+    // }
+    
+
+// output>>>>>>>>
+
+// Enter a limit for array5
+// 1
+// 2
+// 2
+// 4
+// Repeated numbers are :-1
+// Repeated numbers are :-2
+
+// **********************************************************************
+
+
+
+
+
+
+
+
+
+
+
+
+
+//    q12,  Read a line of text from the user , Find the number of Alphabets, Digits and Special characters?
+
+
+    // code>>>>>>
+
+    // char string[1000];
+    // int alpha = 0, digi = 0, special = 0;
+
+    // printf("Enter a string to find the number of Alphabets, Digits and Special characters");
+    // gets(string);
+
+    // for (int i = 0; i < strlen(string); i++) {
+    //     if (isdigit(string[i])){
+    //         digi++;
+    //     }else if (isalpha(string[i])) {
+    //         alpha++;
+    //     } else {
+    //         special++;
+    //     }
+    // }
+    
+    // printf("Alphabets :- %d \n Digint :- %d\n Special Char :- %d", alpha, digi, special);
+    
+
+// output>>>>>>>>
+
+// Enter a limit for array5
+// 1
+// 2
+// 2
+// 4
+// Repeated numbers are :-1
+// Repeated numbers are :-2
+
+// **********************************************************************
+
+
+
+
+
+
+
+
+
+//    q16, It's your first day at school. Your teacher asked the students to meet every other student in the class and to introduce themselves. The teacher asked them to do handshakes when they meet each other.
+//         If there are n number of students in the class then find the total number of handshakes made by the students.
+//         Program to find the maximum number of handshakes is discussed here. Given a positive integer n, find out the total number of handshakes possible.
+
+
+
+    // code>>>>>>
+
+   
+// int n, sum = 0;
+
+// printf("Enter the number of students");
+// scanf("%d", &n);
+
+// for (int i = 1; i <= n; i++) {
+//     sum = sum + n - i;
+// }
+
+// printf("Total shakehands are :- %d", sum);
+
+    
+
+// output>>>>>>>>
+
+// Enter the number of students15
+// Total shakehands are :- 105
+
+// **********************************************************************
+
+
+
+
 
 
 
