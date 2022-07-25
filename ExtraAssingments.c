@@ -2,166 +2,115 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+int main(void)
+{
 
-int main(void) {
-	
-
-
-
-	  
-
-
-
-
-
-
-
-
-
-//    q3, Write a program to compare two strings without using string functions.
-
+    //    q3, Write a program to compare two strings without using string functions.
 
     // code>>>>>>
 
-	// char string1[100], string2[100], check = 0;
+    // char string1[100], string2[100], check = 0;
 
-	//    printf("Enter a string \n");
-	//    gets(string1);
+    //    printf("Enter a string \n");
+    //    gets(string1);
 
-	//    printf("Enter another string \n");
-	//    gets(string2);
+    //    printf("Enter another string \n");
+    //    gets(string2);
 
-	//    printf("string1 =%s \n", string1);
-	//    printf("string2 =%s \n", string2);
+    //    printf("string1 =%s \n", string1);
+    //    printf("string2 =%s \n", string2);
 
-	//    for(int i = 0; i < strlen(string1); i++) {
-	// 	   if(string1[i] != string2[i]) {
-	// 		   check = -1;
-	// 	   }
-	//    }
+    //    for(int i = 0; i < strlen(string1); i++) {
+    // 	   if(string1[i] != string2[i]) {
+    // 		   check = -1;
+    // 	   }
+    //    }
 
-	//    check == -1 ? printf("NOT SAME") : printf("SAME");
+    //    check == -1 ? printf("NOT SAME") : printf("SAME");
 
-// output>>>>>>>>
+    // output>>>>>>>>
 
-// Enter a string 
-// hisham
-// Enter another string 
-// hisham
-// string1 =hisham 
-// string2 =hisham
-// SAME
+    // Enter a string
+    // hisham
+    // Enter another string
+    // hisham
+    // string1 =hisham
+    // string2 =hisham
+    // SAME
 
-// **********************************************************************
+    // **********************************************************************
 
-
-
-
-
-
-
-
-
-
-
-//    q5,  Write a Program to copy one string to another without using String Functions ?
+    //    q5,  Write a Program to copy one string to another without using String Functions ?
 
     // code>>>>>>
 
+    //    char string[100], newString[100];
 
-//    char string[100], newString[100];
-   
-//    printf("Enter a string\n");
-//    scanf("%s", string);
+    //    printf("Enter a string\n");
+    //    scanf("%s", string);
 
-//    for (int i = 0; i < string[i] != 0; i++) {
-// 	   newString[i] = string[i];
-//    }
+    //    for (int i = 0; i < string[i] != 0; i++) {
+    // 	   newString[i] = string[i];
+    //    }
 
-//    printf("String1 :- %s\n", string);
-//    printf("New String :- %s\n", newString);
-	
+    //    printf("String1 :- %s\n", string);
+    //    printf("New String :- %s\n", newString);
 
-// output>>>>>>>>
+    // output>>>>>>>>
 
-// Enter a string 
-// hisham
-// Enter another string 
-// hisham
-// string1 =hisham 
-// string2 =hisham
-// SAME
+    // Enter a string
+    // hisham
+    // Enter another string
+    // hisham
+    // string1 =hisham
+    // string2 =hisham
+    // SAME
 
-// **********************************************************************
+    // **********************************************************************
 
-
-
-
-
-
-
-
-
-
-
-//    q6,  Write a Program to copy one string to another without using String Functions ?
+    //    q6,  Write a Program to copy one string to another without using String Functions ?
 
     // code>>>>>>
 
+    //    int n;
+    //    char str[100][100],s[100];
+    //    printf("Enter names of some malayalam movies:");
+    //    scanf("%d",&n);
+    //    printf("Enter names in any order:");
+    //    for(int i = 0; i < n; i++){
+    //       scanf("%s",str[i]);
+    //    }
+    //    for(int i = 0; i < n; i++){
+    //       for(int j = i + 1; j < n; j++){
+    //          if(strcmp(str[i],str[j]) < 0){
+    //             strcpy(s,str[i]);
+    //             strcpy(str[i],str[j]);
+    //             strcpy(str[j],s);
+    //          }
+    //       }
+    //    }
+    //    printf("The sorted order of names are:");
+    //    for(int i=0; i<n; i++){
+    //       printf("%s\n",str[i]);
+    //   }
 
-//    int n;
-//    char str[100][100],s[100];
-//    printf("Enter names of some malayalam movies:");
-//    scanf("%d",&n);
-//    printf("Enter names in any order:");
-//    for(int i = 0; i < n; i++){
-//       scanf("%s",str[i]);
-//    }
-//    for(int i = 0; i < n; i++){
-//       for(int j = i + 1; j < n; j++){
-//          if(strcmp(str[i],str[j]) < 0){
-//             strcpy(s,str[i]);
-//             strcpy(str[i],str[j]);
-//             strcpy(str[j],s);
-//          }
-//       }
-//    }
-//    printf("The sorted order of names are:");
-//    for(int i=0; i<n; i++){
-//       printf("%s\n",str[i]);
-//   }
+    // output>>>>>>>>
 
+    // Enter number of names :3
+    // Enter names in any order:xavi
+    // hisham
+    // abhi
+    // The sorted order of names are:xavi
+    // hisham
+    // abhi
 
-// output>>>>>>>>
+    // **********************************************************************
 
-// Enter number of names :3
-// Enter names in any order:xavi
-// hisham
-// abhi
-// The sorted order of names are:xavi
-// hisham
-// abhi
-
-// **********************************************************************
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-//    q7, Write a program to read the string “India is my country” from the user and find the position of the word “is” ?
+    //    q7, Write a program to read the string “India is my country” from the user and find the position of the word “is” ?
 
     // code>>>>>>
 
-	// char word[100];
+    // char word[100];
     // int flag = 0;
 
     // printf("enter a word to find the word 'is' in it \n");
@@ -178,102 +127,75 @@ int main(void) {
     // if (flag = 1) {
     //     printf("Word not found");
     // }
-    
-    
 
+    // output>>>>>>>>
 
-// output>>>>>>>>
+    // Enter a letterA
+    // ASCII code of the letter is :- 65
 
-// Enter a letterA
-// ASCII code of the letter is :- 65
+    // **********************************************************************
 
-// **********************************************************************
-
-
-
-
-
-
-
-//    q8, Read random numbers [ 22,87,178,34,10,45,22,89,31] from user and sort numbers in descending Order?
+    //    q8, Read random numbers [ 22,87,178,34,10,45,22,89,31] from user and sort numbers in descending Order?
 
     // code>>>>>>
 
+    //    int count, numbers[100], temp[100];
 
-//    int count, numbers[100], temp[100];
+    //    printf("Enter the number of numbers you wnat to sort\n");
+    //    scanf("%d", &count);
 
-//    printf("Enter the number of numbers you wnat to sort\n");
-//    scanf("%d", &count);
+    //    printf("Enter the numbers in any order \n");
+    //    for (int i = 0; i < count; i++) {
+    // 	   scanf("%d", &numbers[i]);
+    //    }
 
-//    printf("Enter the numbers in any order \n");
-//    for (int i = 0; i < count; i++) {
-// 	   scanf("%d", &numbers[i]);
-//    }
+    //    for (int i = 0; i < count; i++) {
+    // 	for (int j = i + 1; j < count; j++)	{
+    // 		if(numbers[i] < numbers[j]) {
+    // 			temp[i] = numbers[i];
+    // 			numbers[i] = numbers[j];
+    // 			numbers[j] = temp[i];
+    // 		}
+    // 	}
 
-//    for (int i = 0; i < count; i++) {
-// 	for (int j = i + 1; j < count; j++)	{
-// 		if(numbers[i] < numbers[j]) {
-// 			temp[i] = numbers[i];
-// 			numbers[i] = numbers[j];
-// 			numbers[j] = temp[i];
-// 		}
-// 	}
-	
-//    }
-   
-//    for (int i = 0; i < count; i++) {
-// 	printf("%d \t", numbers[i]);
-//    }
-   
+    //    }
 
+    //    for (int i = 0; i < count; i++) {
+    // 	printf("%d \t", numbers[i]);
+    //    }
 
-// output>>>>>>>>
+    // output>>>>>>>>
 
-// Enter the number of numbers you wnat to sort
-// 5
-// Enter the numbers in any order 
-// -22222
-// 433
-// 4
-// 74
-// 2433443
-// 2433443         433     74      4       -22222 
+    // Enter the number of numbers you wnat to sort
+    // 5
+    // Enter the numbers in any order
+    // -22222
+    // 433
+    // 4
+    // 74
+    // 2433443
+    // 2433443         433     74      4       -22222
 
-// **********************************************************************
+    // **********************************************************************
 
-
-
-
-
-
-
-//    q9, Read a character from the user and find the ASCII code of that character?
+    //    q9, Read a character from the user and find the ASCII code of that character?
 
     // code>>>>>>
 
-	// char letter;
+    // char letter;
     // printf("Enter a letter");
     // scanf("%c", &letter);
 
     // printf("ASCII code of the letter is :- %d", letter);
 
+    // output>>>>>>>>
 
-// output>>>>>>>>
+    // Enter a letterA
+    // ASCII code of the letter is :- 65
 
-// Enter a letterA
-// ASCII code of the letter is :- 65
+    // **********************************************************************
 
-// **********************************************************************
-
-
-
-
-
-
-
-
-
-//    q10, Write a program to print the following pattern.
+    //    q10, Write a program to print the following pattern.
 
     // code>>>>>>
 
@@ -296,95 +218,67 @@ int main(void) {
     //     }
     //     printf("\n");
     // }
-    
 
-// output>>>>>>>>
+    // output>>>>>>>>
 
-//       A
-//      ABA
-//     ABCBA
-//    ABCDCBA
-//   ABCDEDCBA
+    //       A
+    //      ABA
+    //     ABCBA
+    //    ABCDCBA
+    //   ABCDEDCBA
 
-// **********************************************************************
+    // **********************************************************************
 
-
-
-
-
-
-
-
-
-
-
-//    q11, Read some numbers from the user and find the repeating numbers?
+    //    q11, Read some numbers from the user and find the repeating numbers?
 
     // code>>>>>>
 
-    //  int arr[100]; 
-    //  int n; 
+    //  int arr[100];
+    //  int n;
 
     // int visited[100];
 
     // printf("Enter a limit for array");
     // scanf("%d", &n);
 
-    
-
     // for (int i = 1; i <= n; i++) {
     //     arr[0] = 0;
     //     scanf("%d", &arr[i]);
     // }
-    
- 
+
     // for(int i=1; i <= n; i++){
-        
+
     //     // only if unvisited
     //     if(visited[i] == 0){
     //         int count = 1;
-          
-    //         for(int j = i+1; j <= n; j++) { 
-	// 			// if appears again in the array 
-	// 			if(arr[i] == arr[j]) 
-	// 			{ // increase count & mark index visited 
+
+    //         for(int j = i+1; j <= n; j++) {
+    // 			// if appears again in the array
+    // 			if(arr[i] == arr[j])
+    // 			{ // increase count & mark index visited
     //             count++;
-	// 				visited[j] = 1; 
-	// 			} 
-	// 		} // 
-			
+    // 				visited[j] = 1;
+    // 			}
+    // 		} //
+
     //         if(count > 1)
     //             printf("Repeated numbers are :-%d \n",arr[i]);
     //     }
     // }
-    
 
-// output>>>>>>>>
+    // output>>>>>>>>
 
-// Enter a limit for array5
-// 1
-// 2
-// 2
-// 4
-// Repeated numbers are :-1
-// Repeated numbers are :-2
+    // Enter a limit for array5
+    // 1
+    // 2
+    // 2
+    // 4
+    // Repeated numbers are :-1
+    // Repeated numbers are :-2
 
-// **********************************************************************
+    // **********************************************************************
 
-
-
-
-
-
-
-
-
-
-
-
-
-//    q12,  Read a line of text from the user , Find the number of Alphabets, Digits and Special characters?
-
+    //    q12,  Read a line of text from the user , Find the number of Alphabets, Digits and Special characters?
 
     // code>>>>>>
 
@@ -403,72 +297,110 @@ int main(void) {
     //         special++;
     //     }
     // }
-    
+
     // printf("Alphabets :- %d \n Digint :- %d\n Special Char :- %d", alpha, digi, special);
-    
 
-// output>>>>>>>>
+    // output>>>>>>>>
 
-// Enter a limit for array5
-// 1
-// 2
-// 2
-// 4
-// Repeated numbers are :-1
-// Repeated numbers are :-2
+    // Enter a limit for array5
+    // 1
+    // 2
+    // 2
+    // 4
+    // Repeated numbers are :-1
+    // Repeated numbers are :-2
 
-// **********************************************************************
+    // **********************************************************************
 
-
-
-
-
-
-
-
-
-//    q16, It's your first day at school. Your teacher asked the students to meet every other student in the class and to introduce themselves. The teacher asked them to do handshakes when they meet each other.
-//         If there are n number of students in the class then find the total number of handshakes made by the students.
-//         Program to find the maximum number of handshakes is discussed here. Given a positive integer n, find out the total number of handshakes possible.
-
-
+    //    q16, It's your first day at school. Your teacher asked the students to meet every other student in the class and to introduce themselves. The teacher asked them to do handshakes when they meet each other.
+    //         If there are n number of students in the class then find the total number of handshakes made by the students.
+    //         Program to find the maximum number of handshakes is discussed here. Given a positive integer n, find out the total number of handshakes possible.
 
     // code>>>>>>
 
-   
-// int n, sum = 0;
+    // int n, sum = 0;
 
-// printf("Enter the number of students");
-// scanf("%d", &n);
+    // printf("Enter the number of students");
+    // scanf("%d", &n);
 
-// for (int i = 1; i <= n; i++) {
-//     sum = sum + n - i;
-// }
+    // for (int i = 1; i <= n; i++) {
+    //     sum = sum + n - i;
+    // }
 
-// printf("Total shakehands are :- %d", sum);
+    // printf("Total shakehands are :- %d", sum);
+
+    // output>>>>>>>>
+
+    // Enter the number of students15
+    // Total shakehands are :- 105
+
+    // **********************************************************************
+
+
+
+
+
+
+
+
+
+    //    q18,  Convert the lowercase characters in a word into uppercase.
+
+    // code>>>>>>
+
+    // char string[100], caps[100];
+
+    // printf("Enter a word to convert it to Uppercase\t");
+    // gets(string);
+
+    // for (int i = 0; i < strlen(string); i++) {
+    //     if (string[i] >= 'a' && string[i] <= 'z') {
+    //         printf("%c", (int)(string[i]) - 32);
+    //     }
+    //     else if (string[i] >= 'A' && string[i] <= 'Z') {
+    //         printf("%c", string[i]);
+    //     }
+    //     else {
+    //         printf(" ");
+    //     }
+    // }
+
+    // output>>>>>>>>
+
+// Enter a word to convert it to Uppercase hIsHaM PaLoli
+// HISHAM PALOLI
+
+    // **********************************************************************
+
+
 
     
 
-// output>>>>>>>>
-
-// Enter the number of students15
-// Total shakehands are :- 105
-
-// **********************************************************************
 
 
 
 
 
 
+    
 
+    //    q19, If the weight of the parcel is less than 500gm or equal to 500gm then the parcel charge will be Rs. 200, Otherwise there is an additional charge of Rs.170 per each extra 500gm
 
+    // code>>>>>>
 
+    int n;
 
+    printf("Enter the weight o fhte patcel \t");
+    scanf("%d", &n);
 
+    int totalNumber = (n / 500);
+    int cost = totalNumber <= 1 && totalNumber >= 0 ? 200 : totalNumber > 1 ?  (totalNumber - 1) * 170 + 200 : 0;
+    
+    printf("Total cost :- %d", cost);
+    // output>>>>>>>>
+
+// Enter a word to convert it to Uppercase hIsHaM PaLoli
+// HISHAM PALOLI
+
+    // **********************************************************************
 }
-
-
-
-
-
