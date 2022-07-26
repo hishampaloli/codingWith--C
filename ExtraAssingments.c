@@ -343,6 +343,48 @@ int main(void)
 
 
 
+    
+
+
+
+
+
+
+
+    
+
+    //    q17, Read two numbers from the user and swap those two numbers using Pointer.
+
+    // code>>>>>>
+
+    // int num1, num2, temp;
+
+    // printf("Enter to numbers to swap\n");
+    // scanf("%d%d", &num1, &num2);
+
+    // int *pointer1 = &num1;
+    // int *pointer2 = &num2;
+
+    // temp = *pointer1;
+    // *pointer1 = *pointer2;
+    // *pointer2 = temp;
+
+    // printf("num1 = %d and num2 = %d", num1, num2);
+    
+    // output>>>>>>>>
+
+// Enter to numbers to swap 
+// 10
+// 22
+// num1 = 22 and num2 - 10
+
+
+    // **********************************************************************
+
+    
+
+
+
 
     //    q18,  Convert the lowercase characters in a word into uppercase.
 
@@ -374,11 +416,6 @@ int main(void)
 
 
 
-    
-
-
-
-
 
 
 
@@ -388,19 +425,41 @@ int main(void)
 
     // code>>>>>>
 
-    int n;
+    // int n;
 
-    printf("Enter the weight o fhte patcel \t");
-    scanf("%d", &n);
+    // printf("Enter the weight o fhte patcel \t");
+    // scanf("%d", &n);
 
-    int totalNumber = (n / 500);
-    int cost = totalNumber <= 1 && totalNumber >= 0 ? 200 : totalNumber > 1 ?  (totalNumber - 1) * 170 + 200 : 0;
+    // int totalNumber = (n / 500);
+    // int cost = totalNumber <= 1 && totalNumber >= 0 ? 200 : totalNumber > 1 ?  (totalNumber - 1) * 170 + 200 : 0;
     
-    printf("Total cost :- %d", cost);
+    // printf("Total cost :- %d", cost);
     // output>>>>>>>>
 
-// Enter a word to convert it to Uppercase hIsHaM PaLoli
-// HISHAM PALOLI
+// Enter the weight o fhte patcel  6583
+// Total cost :- 2240
 
     // **********************************************************************
+
+    int n = 5;
+ 
+for (int i = 1; i <= n; i++) {
+    for (int j = 1; j <= i; j++) {
+        printf("*");
+    }
+ 
+    for (int space = n - i + 1; space > 0; space--) {
+        printf(" ");
+    }
+ 
+     for (int space = n - i; space > 0; space--) {
+        printf(" ");
+    }
+ 
+    for (int j = 1; j <= i; j++) {
+        printf("*");
+    }
+    printf("\n");
+}
+
 }

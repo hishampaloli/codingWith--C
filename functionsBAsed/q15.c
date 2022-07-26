@@ -40,16 +40,35 @@ for(int i=0;i<n;i++) {
 		for (int j = 0; j < n; j++) {
 			sum[i][j] = a[i][j] + b[i][j];
 		}
-		printf(" \n");
 	}
-
-	
 }
 
 void addArray(int n) {
 	int a[100][100];
 	int b[100][100];
 	int sum[100][100];
+
+	for(int i=0;i<n;i++) {
+		for (int j = 0; j < n; j++) {
+		}
+		printf(" \n");
+	}
+
+	for(int i=0;i<n;i++) {
+		for (int j = 0; j < n; j++) {
+		}
+		printf(" \n");
+	}
+
+
+			printf("Array elements sum are:\n");
+	for(int i=0;i<n;i++) {
+		for (int j = 0; j < n; j++) {
+			printf("%d ", sum[i][j]);
+		}
+		printf(" \n");
+	}
+
 
 }
 
@@ -76,14 +95,11 @@ void displayArray(int n)
 		printf(" \n");
 	}
 
-	
-
-	printf("Array elements sum are:\n");
 	for(int i=0;i<n;i++) {
 		for (int j = 0; j < n; j++) {
-			printf("%d ", sum[i][j]);
 		}
 		printf(" \n");
 	}
+
 
 }

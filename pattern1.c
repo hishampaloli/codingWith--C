@@ -474,6 +474,89 @@ int main(void)
 
 
 
+//       A  
+//      AB1
+//     ABC12
+//    ABCD123
+//   ABCDE1234
+ 
+// int n = 5;
+
+// for (int i = 1; i <= n; i++) {
+    
+//     for (int space = n - i + 1; space >= 0; space--) {
+//         printf(" ");
+//     }
+
+//     for (int j = 1; j <= i; j++) {
+//         printf("%c", 'A' - 1 + j);
+//     }
+
+//     for (int j = 1; j < i; j++) {
+//         printf("%d", j);
+//     }
+//     printf("\n");
+    
+    
+// }
+
+
+// 1 
+// 1 2 
+// 1 2 3 
+// 1 2 3 4 
+// 1 2 3 4 5 
+
+// int n = 10;
+
+// for (int i = 1; i <= n; i++) {
+//     for (int j = 1; j <= i; j++) {
+//         printf("%d ", j);
+//     }
+//     printf("\n");
+// }
+
+
+
+
+// 1 2 3 4 5 
+// 1 2 3 4
+// 1 2 3
+// 1 2
+// 1
+
+// int n =5;
+
+// for (int i = 1; i <= n; i++) {
+//     for (int j = 1; j <= n + 1 - i; j++) {
+//         printf("%d ", j);
+//     }
+//     printf("\n");
+// }
+
+
+
+
+// 1 
+// 1 2
+// 1   3
+// 1     4
+// // 1 2 3 4 5
+// int n = 5;
+
+// for (int i = 1; i <= n; i++) {
+//     for (int j = 1; j <= i; j++) {
+//         if (j == 1 || j == i || i == n ) {
+//             printf("%d ", j);
+//         }else {
+//             printf("  ");
+//         }
+//     }
+//     printf("\n");
+// }
+
+
+
 
 
     return EXIT_SUCCESS;

@@ -27,5 +27,10 @@
     "**/.*/**",
     "**/.vscode",
     "**/.vscode/**"
+  ],
+  "java.project.sourcePaths": [
+    "java100K/q.23",
+    "java100K/q.17",
+    "java100K/q.24"
   ]
 }

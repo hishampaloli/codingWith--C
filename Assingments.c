@@ -630,6 +630,55 @@ int main(void) {
 
 
 
+
+
+
+
+
+
+   
+   // q18 :- Income tax is calculated as per the following table 
+
+
+   // code >>>>>>>>>>>>>>>>>>>>>>
+
+   float income,tax;
+
+	printf("Enter the annual income :\n");
+	scanf("%f",&income);
+
+	if(income>5000000){
+		printf("Invalid entry");
+	}else if(income>1000000){
+		tax=(income*30)/100;
+		printf("Income tax amount =%f",tax);
+	}else if(income>500000){
+		tax=(income*20)/100;
+		printf("Income tax amount =%f",tax);
+	}else if(income>250000){
+		tax=(income*5)/100;
+		printf("Income tax amount =%f",tax);
+	}else if(income<=250000){
+		printf("No Tax");
+	}else{
+		printf("Invalid Entry");
+	}
+   
+
+
+// OUTPUT >>>>>>>>>>>>>>>>>>>
+// Enter your WrittenTest , labExam and assingment marks respectivley
+// 100
+// 100
+// 90
+// your grade is :- 99.000000
+   // *************************************************************************
+
+
+
+
+
+
     // q20 :-  Write a program to print the following pattern using for loop.
 
 
@@ -708,24 +757,24 @@ int main(void) {
    // *************************************************************************
 
 
-	char string1[100], string2[100], check = 0;
+	// char string1[100], string2[100], check = 0;
 
-	   printf("Enter a string \n");
-	   gets(string1);
+	//    printf("Enter a string \n");
+	//    gets(string1);
 
-	   printf("Enter another string \n");
-	   gets(string2);
+	//    printf("Enter another string \n");
+	//    gets(string2);
 
-	   printf("string1 =%s \n", string1);
-	   printf("string2 =%s \n", string2);
+	//    printf("string1 =%s \n", string1);
+	//    printf("string2 =%s \n", string2);
 
-	   for(int i = 0; i < strlen(string1); i++) {
-		   if(string1[i] != string2[i]) {
-			   check = -1;
-		   }
-	   }
+	//    for(int i = 0; i < strlen(string1); i++) {
+	// 	   if(string1[i] != string2[i]) {
+	// 		   check = -1;
+	// 	   }
+	//    }
 
-	   check == -1 ? printf("NOT SAME") : printf("SAME");
-	   return 0;
+	//    check == -1 ? printf("NOT SAME") : printf("SAME");
+	//    return 0;
       
 }

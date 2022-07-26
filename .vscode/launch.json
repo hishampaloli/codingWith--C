@@ -2,6 +2,76 @@
   "version": "0.2.0",
   "configurations": [
     {
+      "type": "java",
+      "name": "Launch MyClass",
+      "request": "launch",
+      "mainClass": "MyClass",
+      "projectName": "Pattern-Printing_9e942997"
+    },
+    {
+      "type": "java",
+      "name": "Launch ArrayInputExample2",
+      "request": "launch",
+      "mainClass": "ArrayInputExample2",
+      "projectName": "Pattern-Printing_9e942997"
+    },
+    {
+      "type": "java",
+      "name": "Launch Print2DArray",
+      "request": "launch",
+      "mainClass": "Print2DArray",
+      "projectName": "Pattern-Printing_9e942997"
+    },
+    {
+      "type": "java",
+      "name": "Launch q17",
+      "request": "launch",
+      "mainClass": "q17",
+      "projectName": "Pattern-Printing_9e942997"
+    },
+    {
+      "type": "java",
+      "name": "Launch This",
+      "request": "launch",
+      "mainClass": "javaThis.This",
+      "projectName": "Pattern-Printing_9e942997"
+    },
+    {
+      "type": "java",
+      "name": "Launch Aain",
+      "request": "launch",
+      "mainClass": "Aain",
+      "projectName": "Pattern-Printing_9e942997"
+    },
+    {
+      "type": "java",
+      "name": "Launch Main",
+      "request": "launch",
+      "mainClass": "Main",
+      "projectName": "Pattern-Printing_9e942997"
+    },
+    {
+      "type": "java",
+      "name": "Launch assigments",
+      "request": "launch",
+      "mainClass": "assigments",
+      "projectName": "Pattern-Printing_9e942997"
+    },
+    {
+      "type": "java",
+      "name": "Launch ifJava",
+      "request": "launch",
+      "mainClass": "ifJava",
+      "projectName": "Pattern-Printing_9e942997"
+    },
+    {
+      "type": "java",
+      "name": "Launch HelloWorld",
+      "request": "launch",
+      "mainClass": "HelloWorld",
+      "projectName": "Pattern-Printing_9e942997"
+    },
+    {
       "name": "C/C++ Runner: Debug Session",
       "type": "cppdbg",
       "request": "launch",
