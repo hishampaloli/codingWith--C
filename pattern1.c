@@ -556,8 +556,23 @@ int main(void)
 // }
 
 
+ int n = 5;
+ int k = 0;
 
-
+ for (int i = 1; i <= n; i++) {
+    for (int j = i; j <= n; j++)
+    {
+        if (j == i || j == n || i == 1)
+        {
+              printf("%d ", j);
+        }else {
+            printf("  ");
+        }
+      }
+    
+    printf("\n");
+ }
+ 
 
     return EXIT_SUCCESS;
 }
