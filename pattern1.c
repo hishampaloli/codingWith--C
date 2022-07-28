@@ -556,23 +556,43 @@ int main(void)
 // }
 
 
- int n = 5;
- int k = 0;
+// X 
+// X X
+// X X X
+// X
+// X X
+// X X X
+// X X X X
+// X
+// X X
+// X X X
+// X X X X
+// X X X X X
 
- for (int i = 1; i <= n; i++) {
-    for (int j = i; j <= n; j++)
-    {
-        if (j == i || j == n || i == 1)
-        {
-              printf("%d ", j);
-        }else {
-            printf("  ");
-        }
-      }
+
+//   int n = 5, k = 3;
+
+//   for (int i = 1; i <= k; i++)
+//   {
+//     for (int j = 1; j <= i; j++)
+//     {
+//       printf("X");
+//       if (j == k)
+//       {
+//         i = 0;
+//         k++;
+//       } 
+//     }
     
-    printf("\n");
- }
- 
+//       if (k >= 6)
+//       {
+//         break;
+//       }   
+//     printf("\n");
+    
+//   }
+  
+
 
     return EXIT_SUCCESS;
 }

@@ -1,29 +1,18 @@
 #include <stdio.h>
 
-int isMult(int num) {
-  
+int isPrime(int num) {
   int flag = 0;
- 
-  for (int i = 2; i < num/2 ; i++)
+  for (int i = 2; i <= num/2; i++)
   {
     if (num % i == 0)
     {
       flag = 1;
       break;
     }
-   
+    
   }
- 
-  if (flag == 1)
-  {
-    return 0;
-  }else {
-    return 1;
-  }
-}
-
-int isOdd(int num) {
-  if (num % 2 != 0)
+  
+  if (flag == 0)
   {
     return 1;
   }else {
@@ -32,33 +21,44 @@ int isOdd(int num) {
   
 }
 
-int main() {  
 
-  int n = 5, k = 3;
+int main() { 
+  
+   int n = 5;
 
-  for (int i = 1; i <= k; i++)
-  {
+   for (int i = 1; i <= n; i++)
+   {
     for (int j = 1; j <= i; j++)
     {
-      printf("X");
-      if (j == k)
+      if (j == 1)
       {
-        i = 0;
-        k++;
-      } 
+        printf("I ");
+      }else if (j == 2)
+      {
+        printf("N ");
+      }else if (j == 3)
+      {
+        printf("D ");
+      }else if (j == 4)
+      {
+        printf("I ");
+      }else {
+        printf("A ");
+      }
+      
+      
+      
+       
     }
     
-      if (k >= 6)
-      {
-        break;
-      }   
     printf("\n");
     
-  }
+   }
   
+    
 
+    printf("\n");
     
-    
-  
-    return 0;  
-}  
+   }
+   
+			
