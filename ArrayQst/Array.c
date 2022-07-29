@@ -23,32 +23,45 @@ int isPrime(int num) {
 
 
 int main() { 
-  //Scanner sc= new Scanner(System.in);
-    int n=5,j,i,l=4,f=1,m=3;
- 
-    for (int i = 1; i <= n; i++) {
-      if (i % 2 != 0) {
-        for(j = 1; j <= f; j++){
-          for (int k = 1; k <= m; k++)
-          {
-            printf("*");
-          }
-          printf("\n");
-        }
-        m=m+3;
-        f++;
-      } else if (i % 2 == 0) {
-        for (int j = 1; j <= 3; j++)
-        {
-          printf("*\n");
-        }
-        
+  
+   int n = 8;
+
+   for (int i = 1; i <= n; i++)
+   {
+
+    for (int j = 1; j < i; j++)
+    {
+      if (i % 2 != 0)
+    {
+      if (j % 2 != 0)
+      {
+        printf("0");
+      }else {
+        printf("1");
+      }
+      
+    }else {
+       if (j % 2 != 0)
+      {
+        printf("1");
+      }else {
+        printf("0");
+      }
+    }
     }
     
-      }
     
-}
     
+
+    printf("\n");
+    
+   }
    
+    
+   }
+   
+    
+    
+
    
 			

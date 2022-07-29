@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Launch main",
+      "request": "launch",
+      "mainClass": "main",
+      "projectName": "Pattern-Printing_9e942997"
+    },
+    {
+      "type": "java",
       "name": "Launch MyClass",
       "request": "launch",
       "mainClass": "MyClass",
