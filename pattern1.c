@@ -111,18 +111,18 @@ int main(void)
 //  *******
 // *********
 
-    // int n = 5, m;
-    // m = n;
-    // for (int i = 1; i <= n; i++){
-    //     for (int j = 1; j <= m - 1; j++) {
-    //         printf(" ");
-    //     }
-    //      for (int k = 1; k <= 2 * i - 1; k++) {
-    //         printf("*");
-    //     }
-    //     m--;
-    //     printf("\n");
-    // }
+//     int n = 5, m;
+//     m = n;
+//     for (int i = 1; i <= n; i++){
+//         for (int j = 1; j <= m - 1; j++) {
+//             printf(" ");
+//         }
+//          for (int k = 1; k <= 2 * i - 1; k++) {
+//             printf("*");
+//         }
+//         m--;
+//         printf("\n");
+//     }
 
 
 //     1
@@ -630,6 +630,43 @@ int main(void)
       
 //       }
   
+
+//   int i,j,k,n=5;
+
+//   for (int i = 1; i <= n+1; i++)
+//   {
+//     for (int space = 1; space <= n - i +1 ; space++) {
+//         printf(" ");
+//     }
+    
+//     for (int j = 1; j <= i ; j++) {
+//         printf("*");
+//     }
+//     printf("\n");
+//      }
+
+//   for (int i = n; i >= 1; i--) {
+//     for (int space = 1; space <= n - i + 1; space++) {
+//         printf(" ");
+//     }
+//     for (int j = 1; j <= i; j++)  {
+//         printf("*");
+//     }
+// printf("\n");
+//   }
+  
+  
+   Write a program in C to find the sum of all elements of the array.
+    Write a program in C to copy the elements of one array into another array
+     Write a program in C to sort elements of array in ascending order.
+      Write a program in C to sort elements of array in decending order.
+       Write a program in C for addition of two Matrices of same size.
+
+
+       It's your first day at school. Your teacher asked the students to meet every other student in the class and to introduce themselves. The teacher asked them to do handshakes when they meet each other.
+If there are n number of students in the class then find the total number of handshakes made by the students.
+Program to find the maximum number of handshakes is discussed here. Given a positive integer n, find out the total number of handshakes possible.
+
 
 
     return EXIT_SUCCESS;
