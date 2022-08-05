@@ -1,57 +1,41 @@
 #include <stdio.h>
-int isPrime(int num)
+
+int factorial(int n)
 {
-  int flag = 0;
- 
-  for (int i = 2; i <= num/2 ; i++)
+  int f = 1;
+
+  for (f = 1; n > 1; n--)
   {
-    if (num % i == 0)
-    {
-      flag = 1;
-      break;
-    }
-   
+    f *= n;
   }
- 
-  if (flag == 1)
-  {
-    return 0;
-  }else {
-    return 1;
-  }
- 
- 
- 
+
+  return f;
 }
+
+int ncr(int n, int r)
+{
+  return factorial(n) / (factorial(n - r) * factorial(r));
+}
+
 int main()
 {
 
-  int n = 5,k = 3,f = 3;
+int arr[10] = {1,2,3,4,7,5,7,8,9,3}, n = 10,f[n],visited = -1;
+int pos = 0;
 
-  for (int i = 1; i <= 5; i++)
-  {
-    if (i % 2 != 0)
-    {
-      for (int j = 1; j <= k; j++)
-      {
-        printf("*");
-      }
-      printf("\n");
-    }else if (i % 2 == 0)
-    {
-      for (int j = 1; j <= f; j++)
-      {
-        printf("*");
-      }
-      printf("\n");
-      
-    }
-    
-    
-  }
-  
+for (int i = n; i >= pos; i--)
+{
+  arr[i] = arr[i-1];
+}
+arr[pos] = 786786;
 
-  
+for (int i = 0; i <= n; i++)
+{
+  printf("%d\n",arr[i]);
+}
+
+
+
+
   return 0;
 }
- 
