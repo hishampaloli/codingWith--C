@@ -31,7 +31,7 @@ int main(void) {
 
    // q2 :- Accept two inputs from the user and output its sum.
 
-   // code >>>>>>>>>>>>>>>>>>>>>>
+   // code >>>>>>>>>>>>>>>>>>>>
    // int number1, number2;
    // printf("Enter a two numbers\n");
    // scanf("%d /n", &number1);
