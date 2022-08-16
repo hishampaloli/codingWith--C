@@ -6,7 +6,7 @@ int main(void) {
 
    // q1 :- Accept a char input from the user and display it on the console.
 
-   // code >>>>>>>>>>>>>>>>>>>>>>
+   // code >>>>>>>>>>>>>>>>>>>>>>>>>
 
    // char ch1;
    // printf("Enter a Char\n");
