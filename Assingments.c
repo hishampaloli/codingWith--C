@@ -40,7 +40,6 @@ printf("hi");
 
    // printf("Sum of the two numbers is: %d", sum);
 
-   //   OUTPUT >>>>>>>>>>>>>>>>>>>
    //   Enter a two numbers
    //   0
    //   2
